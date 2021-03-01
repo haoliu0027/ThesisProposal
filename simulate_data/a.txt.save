@@ -1,0 +1,4 @@
+        verbose, epochs, batch_size, num_Neurons = 0, 40, 128, 100
+        trainX, trainy, testX, testy = load_dataset()
+        n_timesteps, n_features, n_outputs = trainX.shape[1], trainX.shape[2], trainy.shape[1]
+        
