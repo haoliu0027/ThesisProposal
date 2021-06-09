@@ -1,2 +1,2 @@
-_86 filter=lfs diff=lfs merge=lfs -text
-.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
+*-86 filter=lfs diff=lfs merge=lfs -text
